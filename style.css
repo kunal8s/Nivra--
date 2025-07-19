@@ -1012,6 +1012,28 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
+    .join-worker {
+        padding: 60px 0; /* Reduce padding on mobile */
+    }
+    
+    .join-worker .container {
+        gap: 30px; /* Reduce gap between content and image */
+    }
+    
+    .image-placeholder {
+        height: 250px; /* Set a more appropriate height for mobile */
+        margin-bottom: 0; /* Remove any extra margin */
+    }
+    
+    .join-content {
+        padding-top: 0; /* Remove any extra padding */
+    }
+    
+    .floating-shapes {
+        display: none; /* Optionally hide shapes on mobile */
+    }
+
     :root {
         --section-padding: 70px 0;
     }
@@ -1099,6 +1121,14 @@ a:hover {
     
     .mission-line {
         font-size: 0.9rem;
+    }
+
+    .join-worker {
+        padding: 50px 0; /* Further reduce padding on very small screens */
+    }
+    
+    .image-placeholder {
+        height: 200px; /* Smaller height for very small screens */
     }
     
     .mission-line::before,
